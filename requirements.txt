@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-altair==4.0.0             # via streamlit
+altair==4.0.0
 appdirs==1.4.3            # via black
 argh==0.26.2              # via watchdog
 astor==0.8.1              # via streamlit
@@ -22,14 +22,16 @@ docutils==0.15.2          # via botocore
 entrypoints==0.3          # via altair
 enum-compat==0.0.3        # via streamlit
 future==0.18.2            # via streamlit
+graphviz==0.13.2
 idna==2.8                 # via requests
 importlib-metadata==1.4.0  # via jsonschema
 jinja2==2.10.3            # via altair
 jmespath==0.9.4           # via boto3, botocore
+joblib==0.14.1            # via scikit-learn
 jsonschema==3.2.0         # via altair
 markupsafe==1.1.1         # via jinja2
 more-itertools==8.1.0     # via zipp
-numpy==1.18.1             # via altair, pandas, streamlit
+numpy==1.18.1
 pandas==0.25.3            # via altair, streamlit
 pathspec==0.7.0           # via black
 pathtools==0.1.2          # via watchdog
@@ -43,6 +45,8 @@ pyyaml==5.3               # via watchdog
 regex==2020.1.8           # via black
 requests==2.22.0          # via streamlit
 s3transfer==0.3.0         # via boto3
+scikit-learn==0.22.1
+scipy==1.4.1
 six==1.13.0               # via jsonschema, pip-tools, protobuf, pyrsistent, python-dateutil, validators
 streamlit==0.52.2
 toml==0.10.0              # via black, streamlit
